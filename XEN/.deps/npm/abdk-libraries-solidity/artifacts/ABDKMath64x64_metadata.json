@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Smart contract library of mathematical functions operating with signed 64.64-bit fixed point numbers.  Signed 64.64-bit fixed point number is basically a simple fraction whose numerator is signed 128-bit integer and denominator is 2^64.  As long as denominator is always the same, there is no need to store it, thus in Solidity signed 64.64-bit fixed point numbers are represented by int128 type holding only the numerator.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/npm/abdk-libraries-solidity/ABDKMath64x64.sol": "ABDKMath64x64"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/npm/abdk-libraries-solidity/ABDKMath64x64.sol": {
+			"keccak256": "0x089b21db72314836305ba36b1773c3f0c2d5ac3a0f418820557c17c0e57c3c50",
+			"license": "BSD-4-Clause",
+			"urls": [
+				"bzz-raw://730ce8d750b0a6588f0d0724ace1c4d6dd90cf6dc0d2805b775b065fce147dfa",
+				"dweb:/ipfs/Qmdx7xRKvhXu1JtAVs25bER3LN2oGj2ZjW8jEvJpzQyXhc"
+			]
+		}
+	},
+	"version": 1
+}
